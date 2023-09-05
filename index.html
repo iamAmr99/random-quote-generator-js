@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>random quotes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Junge&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="assets/node_modules/@fortawesome/fontawesome-free/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="assets/node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body class="d-flex flex-column gap-5 vh-100">
+    <div
+      class="container-fluid d-flex align-items-center justify-content-between flex-column text-white gap-5 mt-5"
+    >
+      <header>
+        <h1 class="fw-bold">Random Quote Generator</h1>
+        <h4 class="fw-medium text-center fst-italic">
+          Learn from the world's greatest minds
+        </h4>
+      </header>
+        <div class="display-section border border-3 h-75 w-50 p-3 fw-bold shadow ">
+          <div class="inner-bg w-100 h-100 top-0 end-0"></div>
+          <p id="quoteSection">"As a man; I am flesh and blood; I can be ignored, I can be destroyed. But as a symbol, I can be incorruptible. I can be everlasting."</p>
+          <p class="w-25 ms-auto" id="bySection">Bruce Wayne</p>
+        </div>
+        <button type="button" id="getQuote" class=" btn btn-light" >
+          Get quote <i class="fa-solid fa-shuffle mx-1"></i>
+      </button>
+    </div>
+    <footer class="bg-black text-white w-100 p-2 position-absolute top-100">
+      <i class="fa-brands fa-github"></i>
+    </footer>
+    <script src="assets/node_modules/@fortawesome/fontawesome-free/js/all.min.js"></script>
+    <script src="assets/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>

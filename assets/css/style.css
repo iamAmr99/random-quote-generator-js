@@ -1,0 +1,23 @@
+body {
+    background-image: url("../imgs/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    font-family: 'Junge', serif;
+    height: 100%;
+}
+footer {
+    translate:0 -40px ;
+}
+.display-section{
+    position: relative;
+}
+.display-section>p {
+    text-shadow: 2px 2px black;
+}
+.inner-bg{
+    filter: blur(3px);
+    position: absolute;
+    background-color: gray;
+    opacity: 50%;
+}
