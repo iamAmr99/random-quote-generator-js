@@ -3,21 +3,30 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    font-family: 'Junge', serif;
+    /* font-family: 'Junge', serif; */
+    font-family: 'Berkshire Swash', cursive;
     height: 100%;
+
 }
-footer {
-    translate:0 -40px ;
+h1 {
+    font-size: 3em;
+}
+body>div, header, footer {
+    width: 25%;
 }
 .display-section{
     position: relative;
 }
 .display-section>p {
-    text-shadow: 2px 2px black;
+    /* text-shadow: 2px 2px black; */
 }
 .inner-bg{
-    filter: blur(3px);
+    filter: blur(6px);
     position: absolute;
-    background-color: gray;
-    opacity: 50%;
+    background-color: gray  ;
+    opacity: 75%;
+    z-index: -1;
+}
+footer>span {
+    letter-spacing: 10px;
 }
