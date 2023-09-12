@@ -3,7 +3,6 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    /* font-family: 'Junge', serif; */
     font-family: 'Berkshire Swash', cursive;
     height: 100%;
 
@@ -16,9 +15,6 @@ body>div, header, footer {
 }
 .display-section{
     position: relative;
-}
-.display-section>p {
-    /* text-shadow: 2px 2px black; */
 }
 .inner-bg{
     filter: blur(6px);
